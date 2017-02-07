@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
 
 
 
-console.log("Program Ended with git commit  new git directory add");
+console.log("git repo added");
 
 console.log('Server running at http://127.0.0.1:8081/');
