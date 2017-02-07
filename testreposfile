@@ -1,3 +1,7 @@
 test file created in repository for pull.
 changed in local repository.
+<<<<<<< HEAD
 changed for conflict.
+=======
+changed in remote repository after committted changes in local
+>>>>>>> 6c5a8277042d2e8cfd19432e809ea3c689aee11b
