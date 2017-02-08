@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
 
 
 
-console.log("git repo added");
+console.log("git repo added workspacepath  workspace ");
 
 console.log('Server running at http://127.0.0.1:8081/');
