@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
 
 
 
-console.log("git repo added fetch change Remote changes");
+console.log("git repo added fetch change Remote changes  git ");
 
 console.log('Server running at http://127.0.0.1:8081/');
