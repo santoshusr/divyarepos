@@ -25,6 +25,10 @@ fs.readFile('input.txt', function (err, data) {
 
 
 
-console.log("git repo added workspacepath  workspace ");
+//<<<<<<< HEAD
+
+//=======
+console.log("git repo added fetch change Remote changes  git ");
+//>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
 
 console.log('Server running at http://127.0.0.1:8081/');
