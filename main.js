@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
 //<<<<<<< HEAD
 
 //=======
-console.log("check push");
+console.log("remote file changed");
 //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
 
 console.log('Server running at http://127.0.0.1:8081/');
