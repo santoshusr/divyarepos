@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
 //<<<<<<< HEAD
 
 //=======
-console.log("CHECK Fetch and merge ");
+console.log("Again check fetch and merge ");
 //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
 
 console.log('Server running at http://127.0.0.1:8081/');
