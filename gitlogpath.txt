@@ -1,0 +1,780 @@
+commit 064f51163ae952e5f354165e4c51f9be207787e0
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Thu Feb 9 18:10:33 2017 +0530
+
+    sdd
+
+diff --git a/main.js b/main.js
+index d2a33d8..86cd997 100644
+--- a/main.js
++++ b/main.js
+@@ -25,4 +25,4 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+-console.log('local server created PUSH Changes to remote new ');
++console.log('local server created PUSH Changes to remote new sd');
+
+commit 17d526f9d55a9e0d2ac11eeb9e3e1b6a9ecf302e
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Thu Feb 9 18:08:24 2017 +0530
+
+    add index
+
+diff --git a/main.js b/main.js
+index a73c3aa..d2a33d8 100644
+--- a/main.js
++++ b/main.js
+@@ -25,4 +25,4 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+-console.log('local server created PUSH Changes to remote');
++console.log('local server created PUSH Changes to remote new ');
+
+commit f6c0568cdccabc7aa7fcabf7f4b2d0e263be5e9a
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Thu Feb 9 18:07:27 2017 +0530
+
+    add to index
+
+diff --git a/main.js b/main.js
+index eaa5d6c..a73c3aa 100644
+--- a/main.js
++++ b/main.js
+@@ -25,4 +25,4 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+-console.log('local server created');
++console.log('local server created PUSH Changes to remote');
+
+commit 680da02d5378b87a7a47c7b5b611e581030797b7
+Merge: 4782671 0652ca9
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 17:25:47 2017 +0530
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+            main.js
+
+commit 47826711db016a1c9eb661a3db02737829210428
+Merge: a219f8f 9908fa9
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 17:24:28 2017 +0530
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+            main.js
+
+commit 0652ca9a3a3c8bbb09928651b92d90a3aed8d4f8
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 17:23:58 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index a19b60c..b0b8985 100644
+--- a/main.js
++++ b/main.js
+@@ -23,12 +23,5 @@ fs.readFile('input.txt', function (err, data) {
+    console.log(data.toString());
+ }); */
+ 
+-
+-
+-//<<<<<<< HEAD
+-
+-//=======
+-console.log("remote file changed");
+-//>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+-
++console.log("Remote server created ");
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit a219f8f929d340dd201d89ad60d4d70d1aec859f
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 15:50:23 2017 +0530
+
+    workspace changed
+
+diff --git a/main.js b/main.js
+index 8915d6d..6c1d7c3 100644
+--- a/main.js
++++ b/main.js
+@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
+ //<<<<<<< HEAD
+ 
+ //=======
+-console.log("check push");
++console.log("workspace file changed");
+ //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit 9908fa93fbea10c026b63043b90747b2fd5cb934
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 15:49:06 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index 8915d6d..a19b60c 100644
+--- a/main.js
++++ b/main.js
+@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
+ //<<<<<<< HEAD
+ 
+ //=======
+-console.log("check push");
++console.log("remote file changed");
+ //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit 0824fa7f3bdcafd54f6892ed809c80e61b5a3276
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 15:42:38 2017 +0530
+
+    Divya
+
+diff --git a/main.js b/main.js
+index c539760..8915d6d 100644
+--- a/main.js
++++ b/main.js
+@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
+ //<<<<<<< HEAD
+ 
+ //=======
+-console.log("Again check fetch and merge ");
++console.log("check push");
+ //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit b18571ef3c0ae36f49fb95c217760d5edddf9ed9
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 15:40:38 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index 58a1e12..c539760 100644
+--- a/main.js
++++ b/main.js
+@@ -28,7 +28,7 @@ fs.readFile('input.txt', function (err, data) {
+ //<<<<<<< HEAD
+ 
+ //=======
+-console.log("CHECK Fetch and merge ");
++console.log("Again check fetch and merge ");
+ //>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit 33007b2db0f1ebc84381e26499a57ecb5e88d765
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 15:37:12 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index 2f040cf..58a1e12 100644
+--- a/main.js
++++ b/main.js
+@@ -25,10 +25,10 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-//<<<<<<< HEAD
++//<<<<<<< HEAD
+ 
+-//=======
+-console.log("git repo added fetch change Remote changes  git ");
+-//>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
++//=======
++console.log("CHECK Fetch and merge ");
++//>>>>>>> branch 'master' of https://github.com/santoshusr/divyarepos.git
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit eced07c23ccc35c896ac05e3c04c8bf6d1b4307b
+Merge: b7e2aa3 517a8eb
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 14:15:20 2017 +0530
+
+    Merge branch 'master' of https://github.com/santoshusr/divyarepos.git
+    
+    Conflicts:
+            main.js
+
+commit b7e2aa38f166a6911bd90be22fd626c951b97308
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 14:09:26 2017 +0530
+
+    commit mesg
+
+diff --git a/main.js b/main.js
+index ddcb325..4144cda 100644
+--- a/main.js
++++ b/main.js
+@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-console.log("git repo added");
++console.log("git repo added workspacepath  workspace ");
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+\ No newline at end of file
+
+commit 517a8eb7822438d3d5eb983faa39e40a786bafc0
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 13:46:11 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index b93f704..3db1bc4 100644
+--- a/main.js
++++ b/main.js
+@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-console.log("git repo added fetch change Remote changes");
++console.log("git repo added fetch change Remote changes  git ");
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit 6dfa748c44291c6bae2b4fe8d1514324afc1c682
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 13:42:52 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index 57656d1..b93f704 100644
+--- a/main.js
++++ b/main.js
+@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-console.log("git repo added fetch change");
++console.log("git repo added fetch change Remote changes");
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+
+commit ee123e5592c377fd409ec12a8be2433db750a1f4
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Wed Feb 8 13:37:16 2017 +0530
+
+    Update main.js
+
+diff --git a/main.js b/main.js
+index ddcb325..57656d1 100644
+--- a/main.js
++++ b/main.js
+@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-console.log("git repo added");
++console.log("git repo added fetch change");
+ 
+-console.log('Server running at http://127.0.0.1:8081/');
+\ No newline at end of file
++console.log('Server running at http://127.0.0.1:8081/');
+
+commit c5ef22c18d3227826c28e2e10860d95e4f82bfb7
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Tue Feb 7 16:07:43 2017 +0530
+
+    commit mesage
+
+diff --git a/main.js b/main.js
+index de0e2a8..ddcb325 100644
+--- a/main.js
++++ b/main.js
+@@ -25,6 +25,6 @@ fs.readFile('input.txt', function (err, data) {
+ 
+ 
+ 
+-console.log("Program Ended with git commit  new git directory add");
++console.log("git repo added");
+ 
+ console.log('Server running at http://127.0.0.1:8081/');
+\ No newline at end of file
+
+commit fc04b55c1e732fd89a0a37ec8123cad0dcb9bae2
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Tue Feb 7 16:06:56 2017 +0530
+
+    git added
+
+diff --git a/RPEL.js b/RPEL.js
+index 9ea81bc..83861bb 100644
+--- a/RPEL.js
++++ b/RPEL.js
+@@ -1,12 +1,12 @@
+-/**
+- * 
+- */
+-var x=0, y;
+-x=x+1;
+-y=99
+-
+-do {x++;
+-console.log(x+y);
+-
+-}while (x < 9);
+-
++/**
++ * 
++ */
++var x=0, y;
++x=x+1;
++y=99
++
++do {x++;
++console.log(x+y);
++
++}while (x < 9);
++
+diff --git a/divjn5.txt b/divjn5.txt
+index 56421ab..55b1cc5 100644
+--- a/divjn5.txt
++++ b/divjn5.txt
+@@ -1,2 +1,2 @@
+-Hello Divya JAIN
+-changes aT remote
++Hello Divya JAIN
++changes aT remote
+diff --git a/divjn6.txt b/divjn6.txt
+index 08e3fca..ebbb1e8 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1,5 +1,5 @@
+-<<<<<<< HEAD
+-santosh Singh1
+-=======
+-
+->>>>>>> bd4a9b5d77ce7ad553f5b4508a5639bdf434aad0
++<<<<<<< HEAD
++santosh Singh1
++=======
++
++>>>>>>> bd4a9b5d77ce7ad553f5b4508a5639bdf434aad0
+diff --git a/main.js b/main.js
+index 8e6c272..de0e2a8 100644
+--- a/main.js
++++ b/main.js
+@@ -1,30 +1,30 @@
+-/**
+- * 
+- */
+-var http = require("http");
+-http.createServer(function(req,rpo)
+-{
+-	rpo.writeHead(200,{'Content-Type': 'text/plain'});
+-	rpo.end("http server created");
+-}).listen(8081);
+-
+-/* Blocking code 
+-var fs= require("fs");
+-var data =fs.readFileSync('input.txt');
+-console.log(data.toString());
+-console.log("program ended"); */
+-
+-
+-/* Unblocking code 
+-var fs = require("fs");
+-
+-fs.readFile('input.txt', function (err, data) {
+-   if (err) return console.error(err);
+-   console.log(data.toString());
+-}); */
+-
+-
+-
+-console.log("Program Ended");
+-
++/**
++ * 
++ */
++var http = require("http");
++http.createServer(function(req,rpo)
++{
++	rpo.writeHead(200,{'Content-Type': 'text/plain'});
++	rpo.end("http server created");
++}).listen(8081);
++
++/* Blocking code 
++var fs= require("fs");
++var data =fs.readFileSync('input.txt');
++console.log(data.toString());
++console.log("program ended"); */
++
++
++/* Unblocking code 
++var fs = require("fs");
++
++fs.readFile('input.txt', function (err, data) {
++   if (err) return console.error(err);
++   console.log(data.toString());
++}); */
++
++
++
++console.log("Program Ended with git commit  new git directory add");
++
+ console.log('Server running at http://127.0.0.1:8081/');
+\ No newline at end of file
+diff --git a/testreposfile b/testreposfile
+index 5b8b424..168e91d 100644
+--- a/testreposfile
++++ b/testreposfile
+@@ -1,7 +1,7 @@
+-test file created in repository for pull.
+-changed in local repository.
+-<<<<<<< HEAD
+-changed for conflict.
+-=======
+-changed in remote repository after committted changes in local
+->>>>>>> 6c5a8277042d2e8cfd19432e809ea3c689aee11b
++test file created in repository for pull.
++changed in local repository.
++<<<<<<< HEAD
++changed for conflict.
++=======
++changed in remote repository after committted changes in local
++>>>>>>> 6c5a8277042d2e8cfd19432e809ea3c689aee11b
+diff --git a/testreposfile2 b/testreposfile2
+index aabc4a7..0563491 100644
+--- a/testreposfile2
++++ b/testreposfile2
+@@ -1,2 +1,2 @@
+-2nd file again at git repos.
+-changed at remote git.
++2nd file again at git repos.
++changed at remote git.
+
+commit be00d927fd3778b4fb8582668c33e39ffe51ac68
+Merge: c187276 6c5a827
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Tue Feb 7 13:37:07 2017 +0530
+
+    Merge https://github.com/santoshusr/divyarepos
+
+commit 6c5a8277042d2e8cfd19432e809ea3c689aee11b
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:26:44 2017 +0530
+
+    Update divjn5.txt
+
+diff --git a/divjn5.txt b/divjn5.txt
+index cd40f57..56421ab 100644
+--- a/divjn5.txt
++++ b/divjn5.txt
+@@ -1 +1,2 @@
+ Hello Divya JAIN
++changes aT remote
+
+commit e16576bd3a71321ca4ae193a815b78e11e82c3e5
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:25:29 2017 +0530
+
+    Update testreposfile2
+
+diff --git a/testreposfile2 b/testreposfile2
+index 9a7568d..aabc4a7 100644
+--- a/testreposfile2
++++ b/testreposfile2
+@@ -1 +1,2 @@
+ 2nd file again at git repos.
++changed at remote git.
+
+commit 9759ff2df7817c354335a09ed42e1364667341da
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:21:41 2017 +0530
+
+    Update testreposfile
+
+diff --git a/testreposfile b/testreposfile
+index ce33693..c62261a 100644
+--- a/testreposfile
++++ b/testreposfile
+@@ -1,2 +1,3 @@
+ test file created in repository for pull.
+ changed in local repository.
++changed in remote repository after committted changes in local
+
+commit c18727677a472a37da81ba2cc0946e56580dbacb
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:19:14 2017 +0530
+
+    divya
+
+diff --git a/testreposfile b/testreposfile
+index ce33693..f8ff9fd 100644
+--- a/testreposfile
++++ b/testreposfile
+@@ -1,2 +1,3 @@
+ test file created in repository for pull.
+ changed in local repository.
++changed for conflict.
+
+commit e3cb6e9d9aeefd51ec7458a5c6e3ba1fefd67f7d
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:17:02 2017 +0530
+
+    Create testreposfile2
+
+diff --git a/testreposfile2 b/testreposfile2
+new file mode 100644
+index 0000000..9a7568d
+--- /dev/null
++++ b/testreposfile2
+@@ -0,0 +1 @@
++2nd file again at git repos.
+
+commit a2d7c10e2653690c196e618ed8fc451e33215915
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:11:59 2017 +0530
+
+    ram
+
+diff --git a/testreposfile b/testreposfile
+index ef6c25d..ce33693 100644
+--- a/testreposfile
++++ b/testreposfile
+@@ -1 +1,2 @@
+ test file created in repository for pull.
++changed in local repository.
+
+commit 6496421223a00d5b0f97e477e13fd555d26c55a9
+Merge: 29ef6f4 3551f29
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 18:08:19 2017 +0530
+
+    Merge https://github.com/santoshusr/divyarepos
+
+commit 29ef6f482a40d7b448db1683c2ec05bc72aa7e5c
+Merge: 70f5f6c bd4a9b5
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:56:15 2017 +0530
+
+    ram
+
+commit 3551f29174a6ef3c074c1d87e729d4bdf4f9b9f3
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:51:16 2017 +0530
+
+    Create testreposfile
+
+diff --git a/testreposfile b/testreposfile
+new file mode 100644
+index 0000000..ef6c25d
+--- /dev/null
++++ b/testreposfile
+@@ -0,0 +1 @@
++test file created in repository for pull.
+
+commit 70f5f6c5354d3fd413524f2c37977a1161f6518a
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:36:31 2017 +0530
+
+    ram
+
+diff --git a/divjn6.txt b/divjn6.txt
+index 1095892..808c623 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1,3 +1 @@
+-sdfasdffas
+-sdfasdf
+-sdfasdf
++santosh Singh1
+\ No newline at end of file
+
+commit b7e7cdfa7670f6605f6c37e7489cbc86ffa974ad
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:33:29 2017 +0530
+
+    ram
+
+diff --git a/divjn5.txt b/divjn5.txt
+index ee4f20f..cd40f57 100644
+--- a/divjn5.txt
++++ b/divjn5.txt
+@@ -1,2 +1 @@
+-Hello Divya
+-Divya Jain5 editted
++Hello Divya JAIN
+
+commit bd4a9b5d77ce7ad553f5b4508a5639bdf434aad0
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:16:56 2017 +0530
+
+    Update divjn6.txt
+
+diff --git a/divjn6.txt b/divjn6.txt
+index 1095892..8b13789 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1,3 +1 @@
+-sdfasdffas
+-sdfasdf
+-sdfasdf
++
+
+commit 218fb900ca0a9bf9552ae4711c22e91e4c0edc10
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:14:58 2017 +0530
+
+    Update divjn6.txt
+
+diff --git a/divjn6.txt b/divjn6.txt
+index 8b13789..1095892 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1 +1,3 @@
+-
++sdfasdffas
++sdfasdf
++sdfasdf
+
+commit c646ff003564fb236d6aab012c0460bb6287d4b0
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:13:08 2017 +0530
+
+    Update divjn6.txt
+
+diff --git a/divjn6.txt b/divjn6.txt
+index 9ed8b1c..8b13789 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1,2 +1 @@
+-Hello Divya
+-editted in repository
++
+
+commit 450455c7cc66f15c9f64f3158dcac5098d44813d
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 17:03:26 2017 +0530
+
+    Update divjn5.txt
+
+diff --git a/divjn5.txt b/divjn5.txt
+index 9fc9d13..ee4f20f 100644
+--- a/divjn5.txt
++++ b/divjn5.txt
+@@ -1 +1,2 @@
+-Hello Divya
+\ No newline at end of file
++Hello Divya
++Divya Jain5 editted
+
+commit 442dce7a538941bebef4320c77db4c91479c3772
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 16:59:29 2017 +0530
+
+    Update divjn6.txt
+
+diff --git a/divjn6.txt b/divjn6.txt
+index 9fc9d13..9ed8b1c 100644
+--- a/divjn6.txt
++++ b/divjn6.txt
+@@ -1 +1,2 @@
+-Hello Divya
+\ No newline at end of file
++Hello Divya
++editted in repository
+
+commit cc541782d4a694333fa6188894b28974d44b892b
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 14:59:43 2017 +0530
+
+    RAM
+
+diff --git a/divjn6.txt b/divjn6.txt
+new file mode 100644
+index 0000000..9fc9d13
+--- /dev/null
++++ b/divjn6.txt
+@@ -0,0 +1 @@
++Hello Divya
+\ No newline at end of file
+
+commit c325d71a62c19ab3ed32c66e3fee7fc644546ae5
+Author: santoshusr <s.k.santosh@hotmail.com>
+Date:   Sat Feb 4 14:57:40 2017 +0530
+
+    First commit
+
+diff --git a/RPEL.js b/RPEL.js
+new file mode 100644
+index 0000000..9ea81bc
+--- /dev/null
++++ b/RPEL.js
+@@ -0,0 +1,12 @@
++/**
++ * 
++ */
++var x=0, y;
++x=x+1;
++y=99
++
++do {x++;
++console.log(x+y);
++
++}while (x < 9);
++
+diff --git a/divjn5.txt b/divjn5.txt
+new file mode 100644
+index 0000000..9fc9d13
+--- /dev/null
++++ b/divjn5.txt
+@@ -0,0 +1 @@
++Hello Divya
+\ No newline at end of file
+diff --git a/main.js b/main.js
+new file mode 100644
+index 0000000..8e6c272
+--- /dev/null
++++ b/main.js
+@@ -0,0 +1,30 @@
++/**
++ * 
++ */
++var http = require("http");
++http.createServer(function(req,rpo)
++{
++	rpo.writeHead(200,{'Content-Type': 'text/plain'});
++	rpo.end("http server created");
++}).listen(8081);
++
++/* Blocking code 
++var fs= require("fs");
++var data =fs.readFileSync('input.txt');
++console.log(data.toString());
++console.log("program ended"); */
++
++
++/* Unblocking code 
++var fs = require("fs");
++
++fs.readFile('input.txt', function (err, data) {
++   if (err) return console.error(err);
++   console.log(data.toString());
++}); */
++
++
++
++console.log("Program Ended");
++
++console.log('Server running at http://127.0.0.1:8081/');
+\ No newline at end of file
